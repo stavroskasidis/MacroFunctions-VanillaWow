@@ -1,0 +1,5 @@
+## Interface: 11200
+## Title: MacroFunctions
+## Notes: Exposes some useful functions for macro building
+## Author: AkiraGTX
+MacroFunctions.lua
