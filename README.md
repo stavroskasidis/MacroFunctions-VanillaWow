@@ -1,6 +1,6 @@
 ## MacroFunctions
 
-Simple wow addon (1.12) that adds some functions for macro usage.
+Simple addon for vanilla wow (1.12) that adds some functions for macro usage.
 
 
 ### Functions added by addon
