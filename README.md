@@ -39,9 +39,16 @@ PrintUnitDebuffs(unit)
 ### Examples of usage
 ```lua
 
---(Priest macro) This will cast power word shield on the player only if it not already on them.
+-- Priest macro: This will cast power word shield on the player only if it not already on them.
 /script if(not UnitHasBuff("player","WordS")) then CastSpellByName("Power Word: Shield"); end;
+```
 
+```lua
+-- Hunter "melee" macro. Will stop casting wing clip if it already exists on the target
+/script if (not PlayerFrame.inCombat) then CastSpellByName("Attack"); end
+/cast Raptor Strike
+/cast Mongoose Bite
+/script if (not UnitHasDebuff("target","_Trip")) then CastSpellByName("Wing Clip");end;
 
 ```
 
